@@ -7,14 +7,14 @@ export const Route = createFileRoute('/team')({
 const teamMembers = [
   {
     id: 1,
-    name: 'Nur Aisyah Razak',
-    role: 'Founder & CEO',
-    bio: 'The visionary behind MilkyDonut.co. Aisyah turned her grandmother\'s donut recipe into a beloved brand after years of perfecting the milky glaze formula.',
+    name: 'Muhammad Hazril Bin Nurhasi',
+    role: 'Director',
+    bio: 'The visionary behind MilkyDonut.co. Hazril built a perfect workflow and strategy to sell donut while keeping quality at maximum value.',
     canva: '#',
-    initials: 'NA',
+    initials: 'HN',
     color: '#7C4A1E',
     bgColor: '#E8D5B5',
-    achievement: 'Grew brand from home kitchen to 10K+ monthly sales',
+    achievement: 'Grew brand from scratch to 1K+ sales',
     icon: '🏆',
   },
   {
