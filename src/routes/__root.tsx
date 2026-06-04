@@ -226,7 +226,9 @@ function Footer() {
             <ul className="space-y-3 text-sm" style={{ color: 'var(--text-light)' }}>
               <li className="flex items-start gap-2">
                 <span>📍</span>
-                <span>Kuala Lumpur, Malaysia</span>
+                <span>Universiti Malaysia Sabah
+Jalan UMS, 88400 Kota Kinabalu
+Sabah, Malaysia</span>
               </li>
               <li className="flex items-start gap-2">
                 <span>📱</span>
@@ -242,7 +244,7 @@ function Footer() {
               </li>
               <li className="flex items-start gap-2">
                 <span>🕐</span>
-                <span>Tue–Sun: 9am – 8pm</span>
+                <span>Mon–Fri: 9am – 5pm</span>
               </li>
             </ul>
           </div>
