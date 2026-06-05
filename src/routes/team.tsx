@@ -27,7 +27,7 @@ const teamMembers = [
     color: '#5C3317',
     bgColor: '#D4BC95',
     achievement: 'Consistently finding high-converting winning products with strong demand and no return',
-    icon: '⚙️',
+    icon: '🏭',
   },
   {
     id: 3,
@@ -39,7 +39,7 @@ const teamMembers = [
     color: '#C4956A',
     bgColor: '#F2E8D5',
     achievement: 'Boosting up product testing process',
-    icon: '👩‍🍳',
+    icon: '📦',
   },
   {
     id: 4,
@@ -51,7 +51,7 @@ const teamMembers = [
     color: '#3D1F08',
     bgColor: '#C4956A',
     achievement: 'Maintaining healthy cash flow so the business never runs out of operating funds',
-    icon: '📈',
+    icon: '💰',
   },
   {
     id: 5,
@@ -63,7 +63,7 @@ const teamMembers = [
     color: '#7C4A1E',
     bgColor: '#E8D5B5',
     achievement: 'Nazilah managed to turn cold traffic into consistent daily sales',
-    icon: '⭐',
+    icon: '📈',
   },
   {
     id: 6,
@@ -94,12 +94,12 @@ const teamMembers = [
     name: 'Ahmad Reezal',
     role: 'Multimedia Assistant',
     bio: 'Reezal helps in basic design task while maintaining design and brand identity.',
-    canva: '#',
+    canva: 'https://canva.link/hb37x5jwg9nnddm',
     initials: 'AR',
     color: '#3D1F08',
     bgColor: '#C4956A',
     achievement: 'Helps in consistent media contents and optimizes sales funnel thoroughly',
-    icon: '🔬',
+    icon: '🧑‍💻',
   },
 ]
 
