@@ -1,4 +1,10 @@
-export default function Achievement() {
+import { createFileRoute } from '@tanstack/react-router'
+
+export const Route = createFileRoute('/about/achievement')({
+  component: Achievement,
+})
+
+function Achievement() {
   return (
     <div style={{ padding: "40px" }}>
       <h1>Achievement Dashboard</h1>
@@ -37,7 +43,7 @@ export default function Achievement() {
         </p>
       </section>
     </div>
-  );
+  )
 }
 
 const boxStyle = {
@@ -48,4 +54,4 @@ const boxStyle = {
   alignItems: "center",
   justifyContent: "center",
   marginTop: "10px",
-};
+}
