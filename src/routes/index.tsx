@@ -61,11 +61,11 @@ function DonutSVG({ className = '', style = {} }: { className?: string; style?: 
 
 const testimonials = [
   {
-    name: 'Nurul Hafizah',
-    role: 'Regular Customer',
+    name: 'Haziqah',
+    role: 'UMS Student',
     rating: 5,
-    text: 'The softest donut I have ever had in KL! The milky glaze is just perfect — not too sweet, not too plain. I order every week without fail.',
-    initials: 'NH',
+    text: 'Milk donuts guaranteed soft, not too sweet and very satisfying. Most importantly, the seller is very good. 100/100 recommended😍.',
+    initials: 'H',
     color: '#C4956A',
   },
   {
