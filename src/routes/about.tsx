@@ -18,8 +18,8 @@ const PRODUCT_IMAGE = '' // [PASTE PRODUCT PHOTO LINK]
 const channels = [
   {
     platform: 'TikTok',
-    image: '', // [https://imgur.com/a/hcn6wTw#iXGQpXV]
-    link: '', // [https://www.tiktok.com/@milky.donut.co]
+    image: 'https://imgur.com/a/hcn6wTw#iXGQpXV',
+    link: 'https://www.tiktok.com/@milky.donut.co',
   },
   {
     platform: 'Instagram',
