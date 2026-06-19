@@ -217,7 +217,7 @@ export default function HomePage() {
             {/* Left: text */}
             <div className="order-2 lg:order-1">
               <div className="section-label mb-6 animate-fade-up" style={{ opacity: 0, animationFillMode: 'forwards' }}>
-                — Est. 2023 · Kuala Lumpur
+                — Est. 2026 · Kota Kinabalu
               </div>
 
               <h1
@@ -301,7 +301,7 @@ export default function HomePage() {
                   <path id="circlePath" d="M 150,150 m -120,0 a 120,120 0 1,1 240,0 a 120,120 0 1,1 -240,0" fill="none"/>
                   <text style={{ fontFamily: 'DM Sans', fontSize: '11px', letterSpacing: '4px', fill: 'var(--brown)' }}>
                     <textPath href="#circlePath">
-                      MILKYDONUT.CO · HANDCRAFTED DAILY · KUALA LUMPUR ·
+                      MILKYDONUT.CO · HANDCRAFTED DAILY · SABAH ·
                     </textPath>
                   </text>
                 </svg>
@@ -397,7 +397,7 @@ export default function HomePage() {
                 lineHeight: 1.2,
               }}
             >
-              The One & Only<br />
+              The One of a Kind<br />
               <em style={{ color: 'var(--brown-light)' }}>Milky Donut</em>
             </h2>
           </div>
@@ -460,10 +460,10 @@ export default function HomePage() {
               {/* Qualities */}
               <ul className="space-y-3 mb-8">
                 {[
-                  'Hand-rolled & shaped daily by our artisan bakers',
+                  'Hand-rolled & shaped daily by artisan bakers',
                   'Double-proofed for an extra-pillowy texture',
                   'Glazed with pure fresh milk cream reduction',
-                  'Topped with handpicked colourful sprinkles',
+                  'COated with handpicked milky flour',
                   'No artificial preservatives or flavourings',
                 ].map((item, i) => (
                   <li key={i} className="flex items-center gap-3 text-sm" style={{ color: 'var(--text-mid)' }}>
