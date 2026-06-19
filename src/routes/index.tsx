@@ -149,7 +149,7 @@ const features = [
       </svg>
     ),
     title: 'Fresh Daily',
-    desc: 'We bake in small batches throughout the day — your donut is never more than hours old.',
+    desc: 'We deliver in a single high-quality batch every week — your donut is never more than hours old.',
   },
   {
     icon: (
