@@ -170,7 +170,7 @@ export default function TeamPage() {
             Team
           </h1>
           <p style={{ color: 'var(--text-light)', maxWidth: '520px', margin: '0 auto', lineHeight: 1.8, fontSize: '1rem' }}>
-            Eight passionate individuals who pour their hearts into every single donut we make. From bakers to brand builders — this is the crew that makes MilkyDonut.co extraordinary.
+            The crew that makes MilkyDonut.co extraordinary.
           </p>
         </div>
       </section>
@@ -183,8 +183,8 @@ export default function TeamPage() {
         <div className="max-w-7xl mx-auto flex flex-wrap items-center justify-center gap-8 text-center">
           {[
             { value: '8', label: 'Team Members' },
-            { value: '3+', label: 'Years Together' },
-            { value: '10K+', label: 'Donuts Made' },
+            { value: '+1K', label: 'Donuts Sold' },
+            { value: '6+', label: 'Months Together' },
             { value: '100%', label: 'Passion' },
           ].map(stat => (
             <div key={stat.value}>
@@ -303,8 +303,8 @@ export default function TeamPage() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {[
               {
-                title: 'Craftsmanship',
-                desc: 'We take pride in the process. Every step from mixing to glazing is done with intention and skill.',
+                title: 'Chill',
+                desc: 'We take pride in the process. Every error and mistake is a potential to learn more.',
                 symbol: '✦',
               },
               {
@@ -314,7 +314,7 @@ export default function TeamPage() {
               },
               {
                 title: 'Excellence',
-                desc: 'Good enough is never enough. We push our standards higher with every batch we bake.',
+                desc: 'Good enough is never enough. We push our standards higher with every batch.',
                 symbol: '◉',
               },
             ].map((v, i) => (
@@ -355,10 +355,10 @@ export default function TeamPage() {
               color: 'var(--cream)',
             }}
           >
-            Want to Join Our Team?
+            Get in Touch with Us?
           </h2>
           <p className="mb-8 text-sm" style={{ color: 'var(--text-light)', lineHeight: 1.8 }}>
-            We are always looking for passionate people who love food, people, and excellence. Drop us a message!
+            Drop us a message!
           </p>
           <a
             href="mailto:careers@milkydonut.co"
