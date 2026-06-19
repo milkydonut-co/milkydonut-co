@@ -29,6 +29,7 @@ function Navbar() {
 
   const navLinks = [
     { to: '/', label: 'Home' },
+    { to: '/about', label: 'About Us' },
     { to: '/team', label: 'Our Team' },
     { to: '/gallery', label: 'Gallery' },
   ]
@@ -204,6 +205,7 @@ function Footer() {
             <ul className="space-y-3">
               {[
                 { to: '/', label: 'Home' },
+                { to: '/about', label: 'About Us' },
                 { to: '/team', label: 'Our Team' },
                 { to: '/gallery', label: 'Gallery' },
               ].map(link => (
