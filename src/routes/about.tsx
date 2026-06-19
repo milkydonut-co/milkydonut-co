@@ -18,18 +18,18 @@ const PRODUCT_IMAGE = '' // [PASTE PRODUCT PHOTO LINK]
 const channels = [
   {
     platform: 'TikTok',
-    image: 'https://imgur.com/gallery/5OAdxoX#GE5lNvt',
+    image: 'https://i.imgur.com/GE5lNvt.jpeg',
     link: 'https://www.tiktok.com/@milky.donut.co',
   },
   {
     platform: 'Instagram',
-    image: '', // [PASTE INSTAGRAM SCREENSHOT IMAGE LINK]
-    link: '', // [PASTE INSTAGRAM PROFILE LINK]
+    image: 'https://i.imgur.com/lTsdubr.jpeg', // [PASTE INSTAGRAM SCREENSHOT IMAGE LINK]
+    link: 'https://www.instagram.com/milkydonut.co', // [PASTE INSTAGRAM PROFILE LINK]
   },
   {
     platform: 'Facebook',
-    image: '', // [PASTE FACEBOOK SCREENSHOT IMAGE LINK]
-    link: '', // [PASTE FACEBOOK PROFILE LINK]
+    image: 'https://i.imgur.com/Hv76xai.jpeg', // [PASTE FACEBOOK SCREENSHOT IMAGE LINK]
+    link: 'https://www.facebook.com/profile.php?id=61574332546250', // [PASTE FACEBOOK PROFILE LINK]
   },
 ]
 
