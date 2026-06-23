@@ -546,52 +546,6 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* ── HOW IT'S MADE ── */}
-      <section className="py-20 px-6" style={{ background: 'var(--brown-dark)' }}>
-        <div className="max-w-5xl mx-auto text-center">
-          <div className="section-label mb-4" style={{ color: 'var(--brown-light)' }}>The Process</div>
-          <h2
-            className="mb-16"
-            style={{
-              fontFamily: 'Cormorant Garamond, serif',
-              fontSize: 'clamp(2rem, 4vw, 3rem)',
-              fontWeight: 600,
-              color: 'var(--cream)',
-            }}
-          >
-            From Our Kitchen<br />
-            <em style={{ color: 'var(--gold-light)' }}>to Your Hands</em>
-          </h2>
-
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
-            {[
-              { step: '01', title: 'Mix', desc: 'Premium flour, fresh milk, and a secret blend of spices kneaded to perfection.' },
-              { step: '02', title: 'Rest', desc: 'The dough double-proofs for 2 hours to achieve our signature pillowy softness.' },
-              { step: '03', title: 'Fry', desc: 'Each ring is golden-fried in clean oil at the precise temperature for even cooking.' },
-              { step: '04', title: 'Glaze', desc: 'Dunked in silky milk cream glaze, then finished with vibrant sprinkles by hand.' },
-            ].map((step, i) => (
-              <div key={i} className="text-left">
-                <div
-                  className="text-5xl font-bold mb-3 opacity-30"
-                  style={{ fontFamily: 'Cormorant Garamond, serif', color: 'var(--beige)' }}
-                >
-                  {step.step}
-                </div>
-                <h4
-                  className="mb-2"
-                  style={{ fontFamily: 'Cormorant Garamond, serif', fontSize: '1.4rem', color: 'var(--cream)' }}
-                >
-                  {step.title}
-                </h4>
-                <p className="text-xs leading-relaxed" style={{ color: 'var(--text-light)' }}>
-                  {step.desc}
-                </p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
       {/* ── TESTIMONIALS ── */}
       <section id="testimonials" className="py-24 px-6" style={{ background: 'var(--cream)' }}>
         <div className="max-w-7xl mx-auto">
