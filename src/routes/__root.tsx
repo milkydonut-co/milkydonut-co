@@ -9,7 +9,7 @@ export const Route = createRootRoute({
       { charSet: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { title: 'MilkyDonut.co — Handcrafted Milky Donuts' },
-      { name: 'description', content: 'Handcrafted milky donuts made with love. Soft, pillowy, and irresistibly creamy — MilkyDonut.co' },
+      { name: 'description', content: 'MilkyDonut.co' },
     ],
   }),
   shellComponent: RootDocument,
