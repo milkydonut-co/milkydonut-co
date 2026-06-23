@@ -12,7 +12,7 @@ export const Route = createFileRoute('/about')({
    ────────────────────────────────────────────────────────────────────────── */
 
 // Product showcase photo
-const PRODUCT_IMAGE = '' // [PASTE PRODUCT PHOTO LINK]
+const PRODUCT_IMAGE = 'https://i.imgur.com/5nKvsIo.jpeg' // [PASTE PRODUCT PHOTO LINK]
 
 // Marketing channels — screenshot preview + profile link per platform
 const channels = [
@@ -36,16 +36,16 @@ const channels = [
 // Financial statements — title + image preview per statement
 const statements = [
   {
-    title: 'Revenue Statement',
-    image: '', // [PASTE REVENUE STATEMENT IMAGE LINK]
+    title: 'Income Statement',
+    image: 'https://i.imgur.com/xZ7vqDJ.jpeg', // [PASTE REVENUE STATEMENT IMAGE LINK]
   },
   {
     title: 'Balance Sheet',
-    image: '', // [PASTE BALANCE SHEET IMAGE LINK]
+    image: 'https://i.imgur.com/IV8N7TP.jpeg', // [PASTE BALANCE SHEET IMAGE LINK]
   },
   {
     title: 'Cash Flow Statement',
-    image: '', // [PASTE CASH FLOW STATEMENT IMAGE LINK]
+    image: 'https://i.imgur.com/1oIBofC.jpeg', // [PASTE CASH FLOW STATEMENT IMAGE LINK]
   },
 ]
 
