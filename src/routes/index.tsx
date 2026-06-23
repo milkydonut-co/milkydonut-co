@@ -233,8 +233,8 @@ export default function HomePage() {
                 }}
               >
                 The Donut<br />
-                <em style={{ color: 'var(--brown-light)', fontStyle: 'italic' }}>That Dreams</em><br />
-                Are Made Of
+                <em style={{ color: 'var(--brown-light)', fontStyle: 'italic' }}>Where Creamy</em><br />
+               Meets Dreamy
               </h1>
 
               <p
@@ -248,7 +248,7 @@ export default function HomePage() {
                   animationFillMode: 'forwards',
                 }}
               >
-                Pillowy soft, glazed in silky milk cream, and dusted with just the right amount of love. Our signature Milky Donut is unlike anything you have ever tasted.
+                Light, Soft, Milky. Our signature Milky Donut is unlike anything you have ever tasted.
               </p>
 
               <div
@@ -269,7 +269,7 @@ export default function HomePage() {
                 style={{ opacity: 0, animationFillMode: 'forwards' }}
               >
                 {[
-                  { value: '10K+', label: 'Donuts Sold' },
+                  { value: '2.4K', label: 'Sales' },
                   { value: '4.9★', label: 'Rating' },
                   { value: 'RM2.50', label: 'Per Piece' },
                 ].map(stat => (
@@ -301,7 +301,7 @@ export default function HomePage() {
                   <path id="circlePath" d="M 150,150 m -120,0 a 120,120 0 1,1 240,0 a 120,120 0 1,1 -240,0" fill="none"/>
                   <text style={{ fontFamily: 'DM Sans', fontSize: '11px', letterSpacing: '4px', fill: 'var(--brown)' }}>
                     <textPath href="#circlePath">
-                      MILKYDONUT.CO · HANDCRAFTED DAILY · SABAH ·
+                      MILKYDONUT.CO · KOTA KINABALU · SABAH ·
                     </textPath>
                   </text>
                 </svg>
@@ -463,7 +463,7 @@ export default function HomePage() {
                   'Hand-rolled & shaped daily by artisan bakers',
                   'Double-proofed for an extra-pillowy texture',
                   'Glazed with pure fresh milk cream reduction',
-                  'COated with handpicked milky flour',
+                  'Coated with handpicked milky flour',
                   'No artificial preservatives or flavourings',
                 ].map((item, i) => (
                   <li key={i} className="flex items-center gap-3 text-sm" style={{ color: 'var(--text-mid)' }}>
@@ -559,8 +559,8 @@ export default function HomePage() {
                 color: 'var(--brown-dark)',
               }}
             >
-              Loved by{' '}
-              <em style={{ color: 'var(--brown-light)' }}>Thousands</em>
+              Customer{' '}
+              <em style={{ color: 'var(--brown-light)' }}>Review</em>
             </h2>
           </div>
 
