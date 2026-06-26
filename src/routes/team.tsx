@@ -40,7 +40,7 @@ const teamMembers = [
     initials: 'SS',
     color: '#C4956A',
     bgColor: '#F2E8D5',
-    imageUrl: 'https://i.imgur.com/9E1s7E9.jpeg',
+    imageUrl: 'https://i.imgur.com/7x5Fecr.jpeg',
     achievement: 'Boosting up product testing process',
     icon: '📦',
   },
