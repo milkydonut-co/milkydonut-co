@@ -642,7 +642,7 @@ export default function HomePage() {
             Available for pick-up and delivery. WhatsApp us to place your order — minimum 6 pieces per order.
           </p>
           <a
-            href="https://wa.me/601112345678?text=Hi! I want to order Milky Donuts"
+            href="https://wa.me/60147724330?text=Hi! I want to order Milky Donuts"
             className="btn-primary text-sm"
           >
             <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
