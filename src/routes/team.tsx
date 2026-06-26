@@ -7,7 +7,7 @@ export const Route = createFileRoute('/team')({
 const teamMembers = [
   {
     id: 1,
-    name: 'Muhammad Hazril',
+    name: 'Mohammad Hazril',
     role: 'Director',
     bio: 'The visionary behind MilkyDonut.co. Hazril set overall vision, goal and directions from scratch.',
     canva: 'https://canva.link/jx3zyrqkww0yek0',
