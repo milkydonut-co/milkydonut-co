@@ -196,7 +196,7 @@ export default function TeamPage() {
                 {/* Avatar */}
                 <div
                   className="relative overflow-hidden"
-                  style={{ height: '220px', background: member.bgColor }}
+                 style={{aspectRatio: '5 / 7', width: '100%', background: member.bgColor, }}
                 >
                   <div className="w-full h-full">
                     <img
