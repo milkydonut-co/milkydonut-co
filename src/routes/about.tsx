@@ -54,6 +54,24 @@ const missions = [
   'To provide a pleasant, efficient, and customer-oriented service experience through professional and attentive service.',
 ]
 
+const aboutHighlights = [
+  {
+    label: 'The Challenge',
+    title: 'Fresh snacks should be easy to trust',
+    text: 'Many customers struggle to find snacks that are soft, fresh, and reasonably priced, especially students. Some sellers fail to maintain consistent taste, texture, and freshness, while the snack and dessert market is highly competitive.',
+  },
+  {
+    label: 'Our Solution',
+    title: 'Freshness through pre-order care',
+    text: 'Milky Donut solves these problems by offering high-quality donuts at an affordable price. We use a pre-order system to ensure freshness and maintain quality through limited production.',
+  },
+  {
+    label: 'What Sets Us Apart',
+    title: 'A milky concept for young customers',
+    text: 'We differentiate through a unique milky donut concept and trendy branding targeted at students and young customers.',
+  },
+]
+
 /* On-brand placeholder shown when an image link has not been pasted yet. */
 function ImagePlaceholder({ label }: { label: string }) {
   return (
@@ -256,6 +274,68 @@ export default function AboutPage() {
                 excellence in every bite.
               </p>
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* ── PROBLEM SOLVING ── */}
+      <section className="py-24 px-6">
+        <div className="max-w-7xl mx-auto">
+          <div className="text-center mb-16">
+            <div className="section-label mb-4">Problem Solving</div>
+            <h2
+              style={{
+                fontFamily: 'Cormorant Garamond, serif',
+                fontSize: 'clamp(2.5rem, 5vw, 4rem)',
+                fontWeight: 600,
+                color: 'var(--brown-dark)',
+                lineHeight: 1.2,
+              }}
+            >
+              Why <em style={{ color: 'var(--brown-light)' }}>Milky Donut</em> Exists
+            </h2>
+          </div>
+
+          <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
+            {aboutHighlights.map((item, i) => (
+              <div
+                key={item.label}
+                className="p-8 rounded card-hover h-full"
+                style={{
+                  background: i === 1 ? 'var(--brown-dark)' : 'var(--cream)',
+                  border: '1px solid var(--beige-dark)',
+                }}
+              >
+                <div
+                  className="section-label mb-4"
+                  style={{ color: i === 1 ? 'var(--brown-light)' : undefined }}
+                >
+                  {item.label}
+                </div>
+                <h3
+                  className="mb-5"
+                  style={{
+                    fontFamily: 'Cormorant Garamond, serif',
+                    fontSize: '2rem',
+                    fontWeight: 600,
+                    color: i === 1 ? 'var(--cream)' : 'var(--brown-dark)',
+                    lineHeight: 1.15,
+                  }}
+                >
+                  {item.title}
+                </h3>
+                <p
+                  className="leading-relaxed"
+                  style={{
+                    color: i === 1 ? 'var(--beige-light)' : 'var(--text-mid)',
+                    fontSize: '1rem',
+                    lineHeight: 1.8,
+                  }}
+                >
+                  {item.text}
+                </p>
+              </div>
+            ))}
           </div>
         </div>
       </section>
