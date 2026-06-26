@@ -22,7 +22,7 @@ const teamMembers = [
     name: 'Mohammad Iqmal',
     role: 'Production Department',
     bio: 'Iqmal is the one who oversees all production workflows, supplier relationships, and logistics to ensure every donut reaches customers fresh and on time.',
-    canva: '#',
+    canva: 'https://canva.link/2nk6iqc1yautnke',
     initials: 'MI',
     color: '#5C3317',
     bgColor: '#D4BC95',
