@@ -14,6 +14,7 @@ const teamMembers = [
     initials: 'MH',
     color: '#7C4A1E',
     bgColor: '#E8D5B5',
+    imageUrl: 'https://placehold.co/600x600/E8D5B5/7C4A1E?text=MH',
     achievement: 'Grew brand from nothing',
     icon: '🏆',
   },
@@ -26,6 +27,7 @@ const teamMembers = [
     initials: 'MI',
     color: '#5C3317',
     bgColor: '#D4BC95',
+    imageUrl: 'https://placehold.co/600x600/D4BC95/5C3317?text=MI',
     achievement: 'Consistently finding high-converting winning products with strong demand and no return',
     icon: '🏭',
   },
@@ -38,6 +40,7 @@ const teamMembers = [
     initials: 'SS',
     color: '#C4956A',
     bgColor: '#F2E8D5',
+    imageUrl: 'https://placehold.co/600x600/F2E8D5/C4956A?text=SS',
     achievement: 'Boosting up product testing process',
     icon: '📦',
   },
@@ -50,6 +53,7 @@ const teamMembers = [
     initials: 'AF',
     color: '#3D1F08',
     bgColor: '#C4956A',
+    imageUrl: 'https://placehold.co/600x600/C4956A/3D1F08?text=AF',
     achievement: 'Maintaining healthy cash flow so the business never runs out of operating funds',
     icon: '💰',
   },
@@ -62,6 +66,7 @@ const teamMembers = [
     initials: 'SN',
     color: '#7C4A1E',
     bgColor: '#E8D5B5',
+    imageUrl: 'https://placehold.co/600x600/E8D5B5/7C4A1E?text=SN',
     achievement: 'Nazilah managed to turn cold traffic into consistent daily sales',
     icon: '📈',
   },
@@ -74,6 +79,7 @@ const teamMembers = [
     initials: 'MR',
     color: '#5C3317',
     bgColor: '#D4BC95',
+    imageUrl: 'https://placehold.co/600x600/D4BC95/5C3317?text=MR',
     achievement: 'Improving customer response time and increasing conversion through fast communication',
     icon: '🤝',
   },
@@ -86,6 +92,7 @@ const teamMembers = [
     initials: 'Sh',
     color: '#C4956A',
     bgColor: '#F2E8D5',
+    imageUrl: 'https://placehold.co/600x600/F2E8D5/C4956A?text=Sh',
     achievement: 'Producing high-performing creatives that keeps our lead engaged',
     icon: '🎨',
   },
@@ -98,42 +105,11 @@ const teamMembers = [
     initials: 'AR',
     color: '#3D1F08',
     bgColor: '#C4956A',
+    imageUrl: 'https://placehold.co/600x600/C4956A/3D1F08?text=AR',
     achievement: 'Helps in consistent media contents and optimizes sales funnel thoroughly',
     icon: '🧑‍💻',
   },
 ]
-
-function AvatarSVG({ initials, color, bgColor }: { initials: string; color: string; bgColor: string }) {
-  return (
-    <svg viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-full h-full">
-      {/* Background */}
-      <circle cx="100" cy="100" r="100" fill={bgColor} />
-      {/* Decorative circles */}
-      <circle cx="100" cy="100" r="90" stroke={color} strokeWidth="1" opacity="0.2" />
-      <circle cx="100" cy="100" r="75" stroke={color} strokeWidth="0.5" opacity="0.15" />
-      {/* Body silhouette */}
-      <circle cx="100" cy="75" r="32" fill={color} opacity="0.85" />
-      <ellipse cx="100" cy="175" rx="55" ry="40" fill={color} opacity="0.7" />
-      {/* Initials */}
-      <text
-        x="100"
-        y="83"
-        textAnchor="middle"
-        dominantBaseline="middle"
-        fill="white"
-        fontSize="26"
-        fontFamily="Cormorant Garamond, serif"
-        fontWeight="600"
-      >
-        {initials}
-      </text>
-      {/* Decorative dot */}
-      <circle cx="150" cy="50" r="8" fill={color} opacity="0.4" />
-      <circle cx="165" cy="35" r="4" fill={color} opacity="0.25" />
-      <circle cx="40" cy="160" r="6" fill={color} opacity="0.3" />
-    </svg>
-  )
-}
 
 export default function TeamPage() {
   return (
@@ -211,7 +187,7 @@ export default function TeamPage() {
       <section className="py-20 px-6">
         <div className="max-w-7xl mx-auto">
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-            {teamMembers.map((member, i) => (
+            {teamMembers.map((member) => (
               <div
                 key={member.id}
                 className="rounded overflow-hidden card-hover group"
@@ -223,7 +199,12 @@ export default function TeamPage() {
                   style={{ height: '220px', background: member.bgColor }}
                 >
                   <div className="w-full h-full">
-                    <AvatarSVG initials={member.initials} color={member.color} bgColor={member.bgColor} />
+                    <img
+                      src={member.imageUrl}
+                      alt={`${member.name} placeholder portrait`}
+                      className="w-full h-full object-cover"
+                      loading="lazy"
+                    />
                   </div>
                   {/* Achievement badge on hover */}
                   <div
