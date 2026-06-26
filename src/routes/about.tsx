@@ -37,15 +37,15 @@ const channels = [
 const statements = [
   {
     title: 'Income Statement',
-    image: 'https://i.imgur.com/xZ7vqDJ.jpeg', // [PASTE REVENUE STATEMENT IMAGE LINK]
+    image: 'https://i.imgur.com/Sz8qEi7.jpeg', // [PASTE REVENUE STATEMENT IMAGE LINK]
   },
   {
     title: 'Balance Sheet',
-    image: 'https://i.imgur.com/IV8N7TP.jpeg', // [PASTE BALANCE SHEET IMAGE LINK]
+    image: 'https://i.imgur.com/WK3mLng.jpeg', // [PASTE BALANCE SHEET IMAGE LINK]
   },
   {
     title: 'Cash Flow Statement',
-    image: 'https://i.imgur.com/1oIBofC.jpeg', // [PASTE CASH FLOW STATEMENT IMAGE LINK]
+    image: 'https://i.imgur.com/SBe8wRG.jpeg', // [PASTE CASH FLOW STATEMENT IMAGE LINK]
   },
 ]
 
